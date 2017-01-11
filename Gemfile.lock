@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bibtex-ruby (4.4.3)
+      latex-decode (~> 0.0)
+    citeproc (1.0.5)
+      namae (~> 0.8)
+    citeproc-ruby (1.1.6)
+      citeproc (>= 1.0.4, < 2.0)
+      csl (~> 1.4)
+    csl (1.4.5)
+      namae (~> 0.7)
+    csl-styles (1.0.1.7)
+      csl (~> 1.0)
+    latex-decode (0.2.2)
+      unicode (~> 0.4)
+    namae (0.11.3)
+    unicode (0.4.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bibtex-ruby (~> 4.4, >= 4.4.3)
+  citeproc-ruby (~> 1.1, >= 1.1.6)
+  csl-styles (~> 1.0, >= 1.0.1.7)
+
+BUNDLED WITH
+   1.13.6
